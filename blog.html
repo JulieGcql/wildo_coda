@@ -1,88 +1,340 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8" />
-	    <meta name="language" content="fr">
-	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <meta name="viewport" content="width=device-width, initial-scale=1">
-		
-		<!-- BOOTSTRAP-->
-		<link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
-	    <link rel="icon" type="image/png" href="https://drive.google.com/uc?export=view&id=12tZE1Uyu-dK6xHJYzXIogcRNOxvJYQJC" />
-	    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-	    <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
-	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" >
-		<title>Les articles</title>
-	</head>
-	<body>
-		<!-- BAR NAV-->
-	        <nav class="navbar navbar-expand-lg navbar-dark">
-	            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
-	            <span class="navbar-toggler-icon"></span>
-	            </button>
+<head>
+	<meta charset="utf-8" />
+	<meta name="language" content="fr">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	            <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+	<!-- BOOTSTRAP-->
+	<link rel="icon" type="image/png" href="https://drive.google.com/uc?export=view&id=12tZE1Uyu-dK6xHJYzXIogcRNOxvJYQJC" />
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" >
+	<link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
+	<title>Les articles</title>
+</head>
+<body>
+	<!-- BAR NAV-->
+	<div class="conteneurNav">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-	                <ul class="navbar-nav">
+			<div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
 
-	                    <li class="nav-item active">
-	                        <a class="nav-link" href="#">ACCUEIL <span class="sr-only">(current)</span></a>
-	                    </li>
-	                    <li class="nav-item">
-	                        <a class="nav-link" href="#">BLOG</a>
-	                    </li>
-	                    <li class="nav-item">
-	                        <a class="nav-link disabled" href="#">A PROPOS</a>
-	                    </li>
-	                </ul>
-	            </div>
-	        </nav>
-	    </div>    
-		<!-- SECTION ARTICLES-->	
-			<div class = containerArticle id="lesArticles">
-				<h1>Les Articles</h1>
-					<div class="Decouvrir">
-				<!-- Photos et Articles du MUSEM et le PETIT TRAIN-->
-						<section>
-						<h2>Découvrir</h2>
-						<div class="album py-5 bg-light">
-						    <div class="containerCart">
+				<ul class="navbar-nav">
 
-						      <div class="row">
-						        <div class="col-md-6">
-						          <div class="card mb-4 shadow-sm">
-						            <img class="card-img-top" 
-						            	data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
-						            	alt="Thumbnail [100%x225]" 
-						            	style="height: 225px; width: 100%; display: block;" 
-						            	src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22348%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20348%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_165ed4c706a%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A17pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_165ed4c706a%22%3E%3Crect%20width%3D%22348%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22116.5%22%20y%3D%22119.1%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true">
-						   	           <div class="card-body">
-						      	        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-						               <div class="d-flex justify-content-between align-items-center">
-						                <div class="btn-group">
-						                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-						                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-						                </div>
-						                <small class="text-muted">9 mins</small>
-						              </div>
-						            </div>
-						          </div>
-						        </div>
-						  	  </div>
-							 </div>
+					<li class="nav-item active">
+						<a class="nav-link" href="#">ACCUEIL <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">BLOG</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled" href="#">A PROPOS</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>  
+	<!-- SECTION ARTICLES-->
+	<div class="container">
+		<h1>Mes coups de coeur</h1>
+		<!-------------- CONTENEUR Articles ------------------------------------------------->
+		<div>
+			<section>
+				<h2>Découvrir</h2>
+				<div class="row album py-5 bg-light">
+					<!------- CONTENEUR CARDS MUSEM ET PETIT TRAIN ------------------>					      	
+					<div class="col-md-6">
+						<div class="card mb-4 shadow-sm">
+							<img class="card-img-top" 
+							data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
+							alt="Thumbnail [100%x225]" 
+							style="height: 225px; width: 100%; display: block;" 
+							src="https://drive.google.com/uc?export=view&id=1dGp32xwFBF1vMOmsydUPvR9eti0dqDpW" data-holder-rendered="true">
 
-						  </div>			
-						</section>
+							<div class="card-body">
+								<h5>Le Mucem</h5>
+								<p class="card-text">Point culture!</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+										<!-- Button trigger modal -->
+										<button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#exampleModalLong">Voir plus</button>
 
-					</div>>
+										<!-- Modal -->
+										<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+											<div class="modal-dialog" role="document">
+												<div class="modal-content">
+													<div class="modal-header">
+														<h5 class="modal-title" id="exampleModalLongTitle">Le Mucem</h5>
+														<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+															<span aria-hidden="true">&times;</span>
+														</button>
+													</div>
+													<div class="modal-body">
 
-			<div/>
+														Le musée des Civilisations de l'Europe et de la Méditerranée (Mucem) est un musée national situé à Marseille. Il a ouvert le 7 juin 20133, lorsque Marseille était la Capitale européenne de la culture, le Mucem est premier grand musée national consacré aux civilisations de Méditerranée pour le XXIème siècle
 
-		
-   		 <!--SCRIPT JS-->
+														Direction le Fort Saint-Jean pour accéder à un curieux bâtiment… En apparence, l’architecture du MUCEM détonne et la passerelle pour y accéder nous laisse une vue imprenable sur le quartier de la Joliette d’un côté et la mer de l’autre. La visite dans le musée est très agréable et les expos sont très sympas.
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-	</body>
+													</div>
+													<div class="modal-footer">
+														<h6>Wildo Blog</h6>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<small class="text-muted">Marseille wild</small>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!----------- SECTION  TRAIN --------------------->
+					<div class="col-md-6">
+						<div class="card mb-4 shadow-sm">
+							<img class="card-img-top" 
+							data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
+							alt="Thumbnail [100%x225]" 
+							style="height: 225px; width: 100%; display: block;" 
+							src="http://petit-train-marseille.com/wp-content/uploads/2018/01/IMG_7958.jpg" data-holder-rendered="true">
+							<div class="card-body">
+								<h5>Petit train de Marseille</h5>
+								<p class="card-text">Découvrez Marseille en petit train touristique, trois magnifiques balades vous sont proposées au départ du Vieux-Port.</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+										<!-- Button trigger modal -->
+										<button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#exampleModalLong1">Voir plus</button>
+
+										<!-- Modal -->
+										<div class="modal fade" id="exampleModalLong1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle1" aria-hidden="true">
+											<div class="modal-dialog" role="document">
+												<div class="modal-content">
+													<div class="modal-header">
+														<h5 class="modal-title" id="exampleModalLongTitle1">Le petit Train</h5>
+														<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+															<span aria-hidden="true">&times;</span>
+														</button>
+													</div>
+													<div class="modal-body">
+														Ce circuit vous conduira du Vieux Port jusqu’à Notre Dame de la Garde, en passant par la corniche, en bord de mer, où vous découvrirez ses richesses, comme les Fort Saint Jean et Fort Saint Nicolas, le Palais du Pharo, l’Abbaye St Victor, la vue imprenable du Pont de la Fausse Monnaie, du Château Valmer ou encore du célèbre Vallon des Auffes.
+
+														Vous admirerez en toile de fond, les îles du Frioul et du Château d’If. Le train bifurquera alors, pour vous emmener vers le Vallon de l’Oriol où vous découvrirez de magnifiques demeures « marseillaises », accrochées à flan de colline.
+														Vous grimperez alors, jusqu’à 162 mètres d’altitude où la Bonne Mère veille sur Marseille et les Marseillais.
+														A cet endroit, un spectacle grandiose s’offrira à vous avec un panorama de la ville à 360° à couper le souffle.
+														Après un temps de pause nécessaire et requis (un train toutes les 30 minutes), la balade continuera et vous plongerez dans la ville en passant devant le célèbre Ferry-Boat, sur le Vieux Port.
+													</div>
+													<div class="modal-footer">
+														<h6>Wildo Blog</h6>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<small class="text-muted">Marseille wild</small>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+				</div>	  			
+			</section>
+			<!--------------------------- FIN DU SECTION DECOUVRIR---------------------------------------------------------------------------->
+
+			<section>
+				<h2>Manger</h2>
+				<div class="row album py-5 bg-light">
+					<!----------------------- CONTENEUR CARDS BOUILLABAISSE ET BARS------------------------------------------------>					      	
+					<div class="col-md-6">
+						<div class="card mb-4 shadow-sm">
+							<img class="card-img-top" 
+							data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
+							alt="Thumbnail [100%x225]" 
+							style="height: 225px; width: 100%; display: block;" 
+							src="https://img.bfmtv.com/c/1000/600/461/3e1722b2b5af3795392409187c691.png" data-holder-rendered="true">
+							<div class="card-body">
+								<h5>Où manger la fameuse bouillabaisse ?</h5>
+								<p class="card-text">Le plat marseillais le plus connu, un must do !</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+										<!-- Button trigger modal -->
+										<button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#exampleModalLong3">Voir plus
+										</button>
+
+										<!-- Modal -->
+										<div class="modal fade" id="exampleModalLong3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle3" aria-hidden="true">
+											<div class="modal-dialog" role="document">
+												<div class="modal-content">
+													<div class="modal-header">
+														<h5 class="modal-title" id="exampleModalLongTitle3">Plain restaurants sympas!</h5>
+														<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+															<span aria-hidden="true">&times;</span>
+														</button>
+													</div>
+													<div class="modal-body">
+														Petit restaurant déniché à quelques pas de la place de Lenche au Panier, dans une petite ruelle calme et qui ne paye pas de mine. L’endroit est idéal pour découvrir les plats locaux dans un accueil dès plus chaleureux ! Les produits sont très frais et c’est un régal de découvrir toutes ces saveurs méditerranéennes. Un incontournable dans votre to-do list marseillaise 
+													</div>
+													<div class="modal-footer">
+														<h6>Wildo Blog</h6>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<small class="text-muted">Marseille wild</small>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-------------------SECTION BARS-------------------------------------------------------------------->
+					<div class="col-md-6">
+						<div class="card mb-4 shadow-sm">
+							<img class="card-img-top" 
+							data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
+							alt="Thumbnail [100%x225]" 
+							style="height: 225px; width: 100%; display: block;" 
+							src="https://www.aulamparo.fr/websites/53c12453a0e13f1905793b22f73e048e/img/c27072840f3ac6953ee52aa59c152434.jpg" data-holder-rendered="true">
+							<div class="card-body">
+								<h5>Top 3 des bars du Panier</h5>
+								<p class="card-text">Testés et approuvés !</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+										<!-- Button trigger modal -->
+										<button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#exampleModalLong5">Voir plus
+										</button>
+
+										<!-- Modal -->
+										<div class="modal fade" id="exampleModalLong5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle5" aria-hidden="true">
+											<div class="modal-dialog" role="document">
+												<div class="modal-content">
+													<div class="modal-header">
+														<h5 class="modal-title" id="exampleModalLongTitle5">Découvrez</h5>
+														<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+															<span aria-hidden="true">&times;</span>
+														</button>
+													</div>
+													<div class="modal-body">
+														Vous cherchez un bar à la déco soignée, un patron sympa et la possibilité de prendre l’apéro en terrasse avec une vue imprenable sur la Bonne-Mère! C’est au Barjac qu’il faut aller ! 
+
+														Si vous faites un saut aux terrasses du port alors n’hésitez pas à vous arrêtez découvrir les bières et coktails du White Rabbit. Et pour ceux qui préfèrent le vin l’Ave Maria est le lieu idéal pour débuter votre soirée
+													</div>
+													<div class="modal-footer">
+														<h6>Wildo Blog</h6>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<small class="text-muted">Marseille wild</small>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>   
+			</section>
+
+			<section>
+				<h2>Sortir</h2>
+				<div class="row album py-5 bg-light">
+					<!----------------------- CONTENEUR CARDS CALLANQUES PÉTANTQUE------------------------------------------------>					      	
+					<div class="col-md-6">
+						<div class="card mb-4 shadow-sm">
+							<img class="card-img-top" 
+							data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
+							alt="Thumbnail [100%x225]" 
+							style="height: 225px; width: 100%; display: block;" 
+							src="https://i.pinimg.com/originals/3f/9b/9b/3f9b9b6660cdc0335ba63f068a125a8a.jpg" data-holder-rendered="true">
+							<div class="card-body">
+								<h5>Les plus belles calanques</h5>
+								<p class="card-text">Aventure, nature et tranquillité !</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+										<!-- Button trigger modal -->
+										<button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#exampleModalLong6">Voir plus
+										</button>
+
+										<!-- Modal -->
+										<div class="modal fade" id="exampleModalLong6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle6" aria-hidden="true">
+											<div class="modal-dialog" role="document">
+												<div class="modal-content">
+													<div class="modal-header">
+														<h5 class="modal-title" id="exampleModalLongTitle6">Nature et tranquillité !</h5>
+														<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+															<span aria-hidden="true">&times;</span>
+														</button>
+													</div>
+													<div class="modal-body">
+														Amateurs de randonnées et de sensations fortes ? Venez découvrir les époustouflants paysages qu’offrent les calanques de Marseille ! La reco de Wildo ? La calanque d’En-Vau ! Au programme : une sublime crique à l’eau turquoise entourée de hautes falaises !
+														Pour les fans de plongée ou ceux qui souhaitent passer une journée en famille, les calanques de Sormiou et de Morgiou sont idéales pour se détendre. 
+													</div>
+													<div class="modal-footer">
+														<h6>Wildo Blog</h6>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<small class="text-muted">Marseille wild</small>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-----------------------------SECTION PETANQUE---------------------------------------------------------------------------->
+					<div class="col-md-6">
+						<div class="card mb-4 shadow-sm">
+							<img class="card-img-top" 
+							data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" 
+							alt="Thumbnail [100%x225]" 
+							style="height: 225px; width: 100%; display: block;" 
+							src="https://www.thelocal.fr/userdata/images/article/6688caea5bb4f6fd85c6aa9fa626b3afd39e54db4479588af41d408ef8010b85.jpg" data-holder-rendered="true">
+							<div class="card-body">
+								<h5>La pétanque : quel avenir ?</h5>
+								<p class="card-text">Du pastis et des boules...</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+										<!-- Button trigger modal -->
+										<button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#exampleModalLong7">Voir plus
+										</button>
+
+										<!-- Modal -->
+										<div class="modal fade" id="exampleModalLong7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle7" aria-hidden="true">
+											<div class="modal-dialog" role="document">
+												<div class="modal-content">
+													<div class="modal-header">
+														<h5 class="modal-title" id="exampleModalLongTitle7">Conservez l'esprit festif et sportif</h5>
+														<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+															<span aria-hidden="true">&times;</span>
+														</button>
+													</div>
+													<div class="modal-body">
+														Cet été j’ai eu l’occasion de participer à un concours très spécial : le Mondial la Marseillaise à pétanque ! Plus de 12000 joueurs venus du monde entier se sont réunis au parc Borély pour s’affronter à coup de boules. De nombreuses rencontres et un esprit festif et sportif unique en son genre ! La pétanque a définitivement encore de beaux jours devant elle...
+													</div>
+													<div class="modal-footer">
+														<h6>Wildo Blog</h6>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<small class="text-muted">Marseille wild</small>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>			
+			</section>
+		</div>	
+	</div>
+
+
+	<!--SCRIPT JS-->
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
 </html>

@@ -5,6 +5,7 @@ body {
 }
 
 
+
 .navbar{
 	background-color: #9bbfcc;
 	font-size: 1.6em;
@@ -77,5 +78,9 @@ body {
 
 	justify-content: flex-end;
   }
+}
+
+h1{
+	text-align: center;
 }
 
