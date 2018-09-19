@@ -14,15 +14,62 @@ body {
 .titres{
 	text-align: center;
 	padding-top: 50px;
-    padding-bottom: 50px;
-    letter-spacing: 3px;
+	padding-bottom: 50px;
+	letter-spacing: 3px;
 }
 
 .slider {
-    margin-left:auto;
-    margin-right:auto;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 .description {
 	font-size:22px;
+}
+
+.container{
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+/*-- ME CONCERNANT ---*/
+
+hr   {
+     background-color:black;
+     color:black;
+     border:1px;
+     }
+
+.featurette-heading {
+	font-size: 1.8em;
+	padding-top: 10px;
+}
+
+.card-img-top{
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 15px;
+}
+
+.featurette-image{
+	border-style: solid;
+	border-color: #ffde5e;
+	border-radius: 50%;
+	border-width: 10px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+#gallery{
+	flex-wrap: wrap;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#wildo{
+	margin: 0;
+	padding: 0;
 }
