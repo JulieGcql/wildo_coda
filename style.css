@@ -4,6 +4,13 @@ body {
 	font-family: 'Overpass', sans-serif;
 }
 
+.navbar{
+	background-color: #9bbfcc;
+	font-size: 1.6em;
+	letter-spacing: .2rem;
+	color:white;
+}
+
 .titres{
 	text-align: center;
 	padding-top: 50px;
