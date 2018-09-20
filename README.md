@@ -1,6 +1,5 @@
-# Project Title
-"Blog de Wildo Coda"
-
+# Project Title : "Blog de Wildo Coda"
+⋅*
 ### You can see the project here : [link of the blog]()
 
 # Presentation of the project
