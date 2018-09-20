@@ -4,6 +4,30 @@ body {
 	font-family: 'Overpass', sans-serif;
 }
 
+
+.navbar{
+	background-color: #9bbfcc;
+	font-size: 1.6em;
+	letter-spacing: .2rem;
+	color:white;
+}
+
+.titres{
+	text-align: center;
+	padding-top: 50px;
+    padding-bottom: 50px;
+    letter-spacing: 3px;
+}
+
+.slider {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.description {
+	font-size:22px;
+}
+
 #super-footer{
     background:#1e4367;
     bottom: 0;
