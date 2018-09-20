@@ -1,4 +1,4 @@
-body {
+body{
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 	color: #212529;
 	font-family: 'Overpass', sans-serif;
@@ -13,28 +13,41 @@ body {
 	color:white;
 }
 
+.head{
+	text-align: justify;
+}
+
 .titres{
-	text-align: center;
-	padding-top: 50px;
-    padding-bottom: 50px;
-    letter-spacing: 3px;
-}
-
-.slider {
-    margin-left:auto;
-    margin-right:auto;
-}
-
-.description {
-	font-size:22px;
-}
-
-.voirplus{
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	letter-spacing: 3px;
-	text-decoration: none;
+}
+
+.slider{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.slider img {
+	opacity:0.7;
+}
+
+.description {
+	font-size: 1em;
+}
+
+.voirplus {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	letter-spacing: 3px;
+	text-decoration: underline;
+	font-size: 1,5em;
+}
+
+.voirplus a {
+	color:#212529;
 }
 
 #super-footer{
@@ -55,9 +68,16 @@ body {
     align-items: center;
 }
 
+.row {
+	bottom: 0;
+    position: relative;
+    width: 100%;
+    align-items: center;
+}
+
 .super-footer-row p {
 	font-size: 25px
-	padding-top: 50px;
+	padding-top: 40px;
 
 }
 
@@ -74,7 +94,9 @@ body {
 }
 
 #footer-links{
-	padding-top: 50px;
+	padding-top: 10px;
+	color: white;
+
 }
 
 .footer-copyright{
@@ -86,6 +108,13 @@ body {
 
 	justify-content: flex-end;
   }
+
+  .carousel-caption {
+	top:  -4px;
+}
+.carousel-caption > p, h3 {
+	font-size: 0.6em;
+}
 }
 
 h1{
@@ -121,5 +150,81 @@ h2{
 	.section{
 		padding-right: 20px; 
 		padding-left: 20px;
+	}
+}
+
+
+.container{
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	padding-right: 150px; 
+	padding-left: 150px;
+}
+
+/*-- ABOUT - ME CONCERNANT ---*/
+
+hr{
+	margin-right: 150px; 
+	margin-left: 150px;
+}
+
+.featurette-heading{
+	font-size: 1.8em;
+	padding-top: 10px;
+}
+
+#apropos{
+	padding-top: 10px; 
+}
+
+#photoswildo{
+	padding-top: 20px;
+}
+
+.card-img-top{
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 15px;
+}
+
+.featurette-image{
+	border-style: solid;
+	border-color: #ffde5e;
+	border-radius: 50%;
+	border-width: 10px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#gallery{
+	flex-wrap: wrap;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+@media screen and (min-width: 200px) and (max-width: 900px){
+	#apropos > .texteabout{
+		font-size: 0.7em;
+	}
+	#apropos > .featurette-heading{
+		font-size: 0.9em;
+	}
+	.container{
+		padding-right: 10px; 
+		padding-left: 10px;
+	}
+}
+
+@media screen and (min-width:900px) and (max-width:1000px){
+	#apropos > .texteabout{
+		font-size: 0.9em;
+	}
+
+	.container{
+		padding-right: 10px; 
+		padding-left: 10px;
 	}
 }
