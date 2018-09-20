@@ -76,7 +76,7 @@ body{
 }
 
 .super-footer-row p {
-	font-size: 25px
+	font-size: 25px;
 	padding-top: 40px;
 
 }
@@ -103,25 +103,9 @@ body{
 	background-color: #FFDE5E;
 }
 
-@media screen and (min-width: 200px) and (max-width: 640px) {
-  .icones{
-
-	justify-content: flex-end;
-  }
-
-  .carousel-caption {
-	top:  -4px;
-}
-.carousel-caption > p, h3 {
-	font-size: 0.6em;
-}
-}
-
 h1{
 	text-align: center;
 }
-
-
 
 .container{
 	padding: 10px;
@@ -174,6 +158,10 @@ hr{
 	margin-bottom: 20px;
 }
 
+#navbarsExample08 {
+	padding-left: 26%;
+}
+
 @media screen and (min-width: 200px) and (max-width: 900px){
 	#apropos > .texteabout{
 		font-size: 0.7em;
@@ -187,6 +175,7 @@ hr{
 	}
 }
 
+
 @media screen and (min-width:900px) and (max-width:1000px){
 	#apropos > .texteabout{
 		font-size: 0.9em;
@@ -197,3 +186,25 @@ hr{
 		padding-left: 10px;
 	}
 }
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+	.icones{
+  
+	  justify-content: flex-end;
+	}
+	.carousel-caption > p, h3 {
+		font-size: 0.6em;
+	}
+	.carousel-caption {
+		top:  -4px;
+	}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 2000px) {
+	#navbarsExample08{
+  
+	  padding-left:19%;
+	}
+}	
+
+
