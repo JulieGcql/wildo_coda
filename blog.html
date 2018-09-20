@@ -1,49 +1,54 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8" />
-	<meta name="language" content="fr">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="language" content="fr">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	        <title>Blog de Wildo Coda</title>
 
-	<!-- BOOTSTRAP-->
-	<link rel="icon" type="image/png" href="https://drive.google.com/uc?export=view&id=12tZE1Uyu-dK6xHJYzXIogcRNOxvJYQJC" />
-	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" >
-	<link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
-	<title>Les articles</title>
-</head>
-<body>
-	<!-- BAR NAV-->
-	<div class="conteneurNav">
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
+	        <link rel="icon" type="image/png" href="https://drive.google.com/uc?export=view&id=12tZE1Uyu-dK6xHJYzXIogcRNOxvJYQJC" />
+	        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+	        <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+	        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	            crossorigin="anonymous">
+	        <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+	</head>
+    
+    <body>
+    <!-- BAR NAV -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand">WILDO CODA</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08"
+                aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-			<div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+            <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
 
-				<ul class="navbar-nav">
+                <ul class="navbar-nav">
 
-					<li class="nav-item active">
-						<a class="nav-link" href="#">ACCUEIL <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">BLOG</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link disabled" href="#">A PROPOS</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-	</div>  
-	<!-- SECTION ARTICLES-->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">ACCUEIL <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">A PROPOS</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+	</body>
+	
 	<div class="container">
-		<h1>Mes coups de coeur</h1>
+
+	<!-- SECTION ARTICLES-->
+	<div class="container-articles">
+		<h1 class="titres">Mes coups de coeur</h1>
 		<!-------------- CONTENEUR Articles ------------------------------------------------->
-		<div>
+		<div class="section">
 			<section>
 				<h2>Découvrir</h2>
 				<div class="row album py-5 bg-light">
@@ -88,7 +93,6 @@
 											</div>
 										</div>
 									</div>
-									<small class="text-muted">Marseille wild</small>
 								</div>
 							</div>
 						</div>
@@ -103,7 +107,7 @@
 							src="http://petit-train-marseille.com/wp-content/uploads/2018/01/IMG_7958.jpg" data-holder-rendered="true">
 							<div class="card-body">
 								<h5>Petit train de Marseille</h5>
-								<p class="card-text">Découvrez Marseille en petit train touristique, trois magnifiques balades vous sont proposées au départ du Vieux-Port.</p>
+								<p class="card-text">Découvrez Marseille en petit train.</p>
 								<div class="d-flex justify-content-between align-items-center">
 									<div class="btn-group">
 										<!-- Button trigger modal -->
@@ -134,7 +138,6 @@
 											</div>
 										</div>
 									</div>
-									<small class="text-muted">Marseille wild</small>
 								</div>
 							</div>
 						</div>
@@ -143,12 +146,13 @@
 
 				</div>	  			
 			</section>
-			<!--------------------------- FIN DU SECTION DECOUVRIR---------------------------------------------------------------------------->
+		</div>
 
+		<div class="section">
 			<section>
 				<h2>Manger</h2>
 				<div class="row album py-5 bg-light">
-					<!----------------------- CONTENEUR CARDS BOUILLABAISSE ET BARS------------------------------------------------>					      	
+					<!-------------------  CONTENEUR CARDS BOUILLABAISSE ET BARS  -------------------------------->					      	
 					<div class="col-md-6">
 						<div class="card mb-4 shadow-sm">
 							<img class="card-img-top" 
@@ -229,14 +233,15 @@
 											</div>
 										</div>
 									</div>
-									<small class="text-muted">Marseille wild</small>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>   
 			</section>
+		</div>
 
+		<div class="section">
 			<section>
 				<h2>Sortir</h2>
 				<div class="row album py-5 bg-light">
@@ -320,7 +325,6 @@
 											</div>
 										</div>
 									</div>
-									<small class="text-muted">Marseille wild</small>
 								</div>
 							</div>
 						</div>
@@ -328,6 +332,38 @@
 				</div>			
 			</section>
 		</div>	
+	</div>
+ </div>	
+
+	<!--------- FOOTER -------------->
+	<div>
+		<link rel="stylesheet" type="text/css" href="footer.css">
+            <footer id="super-footer"> 
+                <div class="row  super-container">
+                    <div class="col-9" id="footer-links">
+                        <p>Accueil</p>
+                        <p>Blog</p>
+                        <p>A propos</p>
+                    </div>
+
+                    <!-- Links -->
+                    <div class="icones col-3">
+                        <a src="www.facebook.com" class="icons">
+                            <img src="https://image.flaticon.com/icons/svg/145/145802.svg" />
+                        </a>
+
+                        <a src="https://twitter.com" class="icons">
+                            <img src="https://image.flaticon.com/icons/svg/145/145812.svg" />
+                        </a>
+                        <a src="https://www.instagram.com/" class="icons">
+                            <img src="https://image.flaticon.com/icons/svg/174/174855.svg" />
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-copyright text-center py-3">Fait par amour by
+                    <a href="https://wildcodeschool.fr/"> La team pizza</a>
+                </div>
+            </footer>
 	</div>
 
 
