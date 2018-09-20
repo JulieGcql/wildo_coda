@@ -1,4 +1,4 @@
-body {
+body{
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 	color: #212529;
 	font-family: 'Overpass', sans-serif;
@@ -11,6 +11,10 @@ body {
 	color:white;
 }
 
+.head{
+	text-align: justify;
+}
+
 .titres{
 	text-align: center;
 	padding-top: 50px;
@@ -18,12 +22,12 @@ body {
 	letter-spacing: 3px;
 }
 
-.slider {
+.slider{
 	margin-left:auto;
 	margin-right:auto;
 }
 
-.description {
+.description{
 	font-size:22px;
 }
 
@@ -31,19 +35,28 @@ body {
 	padding: 10px;
 	display: flex;
 	flex-direction: column;
+	padding-right: 150px; 
+	padding-left: 150px;
 }
 
-/*-- ME CONCERNANT ---*/
+/*-- ABOUT - ME CONCERNANT ---*/
 
-hr   {
-     background-color:black;
-     color:black;
-     border:1px;
-     }
+hr{
+	margin-right: 150px; 
+	margin-left: 150px;
+}
 
-.featurette-heading {
+.featurette-heading{
 	font-size: 1.8em;
 	padding-top: 10px;
+}
+
+#apropos{
+	padding-top: 10px; 
+}
+
+#photoswildo{
+	padding-top: 20px;
 }
 
 .card-img-top{
@@ -60,16 +73,35 @@ hr   {
 	width: 100%;
 	display: flex;
 	align-items: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #gallery{
 	flex-wrap: wrap;
 	padding: 20px;
-	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
-#wildo{
-	margin: 0;
-	padding: 0;
+@media screen and (min-width: 200px) and (max-width: 900px){
+	#apropos > .texteabout{
+		font-size: 0.7em;
+	}
+	#apropos > .featurette-heading{
+		font-size: 0.9em;
+	}
+	.container{
+		padding-right: 10px; 
+		padding-left: 10px;
+	}
+}
+
+@media screen and (min-width:900px) and (max-width:1000px){
+	#apropos > .texteabout{
+		font-size: 0.9em;
+	}
+
+	.container{
+		padding-right: 10px; 
+		padding-left: 10px;
+	}
 }
