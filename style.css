@@ -4,6 +4,8 @@ body {
 	font-family: 'Overpass', sans-serif;
 }
 
+
+
 .navbar{
 	background-color: #9bbfcc;
 	font-size: 1.6em;
@@ -34,3 +36,59 @@ body {
 	letter-spacing: 3px;
 	text-decoration: none;
 }
+
+#super-footer{
+    background:#1e4367;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+}
+
+.super-container{
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.super-footer-row{
+    align-items: center;
+}
+
+.super-footer-row p {
+	font-size: 25px
+	padding-top: 50px;
+
+}
+
+.icones{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.icons img{
+	margin-left: 15px;
+    height: 60px;
+    width: 60px;
+}
+
+#footer-links{
+	padding-top: 50px;
+}
+
+.footer-copyright{
+	background-color: #FFDE5E;
+}
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+  .icones{
+
+	justify-content: flex-end;
+  }
+}
+
+h1{
+	text-align: center;
+}
+
