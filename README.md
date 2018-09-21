@@ -17,7 +17,7 @@ Creation of a blog for a backpacker who travelled in Marseille, and wrote about 
 - Images libres de droit
 
 # Notes
-1. Div colors :
+1. *Div colors* :
 - Blue : #9bbfcc
 - Yellow : #ffde5e
 - Dark blue : #1e4367
