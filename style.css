@@ -1,5 +1,270 @@
-body {
+body{
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 	color: #212529;
 	font-family: 'Overpass', sans-serif;
 }
+
+/* ----- BARRE NAV -----*/
+
+.navbar{
+	background-color: #9bbfcc;
+	font-size: 1.6em;
+	letter-spacing: .2rem;
+	color:white;
+}
+
+.head{
+	text-align: justify;
+}
+
+/* ----- CONTAINER -----*/
+
+.container{
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	padding-right: 150px; 
+	padding-left: 150px;
+}
+
+/* ----- TITRES POUR CHAQUE PAGES -----*/
+
+.titres{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	letter-spacing: 3px;
+}
+
+/* ----- INDEX.HTML -----*/
+/* ----- SLIDER -----*/ 
+
+.slider{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.slider img {
+	opacity:0.7;
+}
+
+.description {
+	font-size: 1em;
+}
+
+/* ----- VOIR PLUS -----*/
+
+.voirplus {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	letter-spacing: 3px;
+	text-decoration: underline;
+	font-size: 1,5em;
+}
+
+.voirplus a {
+	color:#212529;
+}
+
+/* ----- FOOTER -----*/
+
+#super-footer{
+    background:#1e4367;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+}
+
+.super-container{
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.super-footer-row{
+    align-items: center;
+}
+
+.super-footer-row p {
+	font-size: 25px;
+	padding-top: 40px;
+
+}
+
+.icones{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.icons img{
+	margin-left: 15px;
+    height: 5vw;
+    width: 5vw;
+}
+
+#footer-links{
+	padding-top: 15px;
+}
+
+.footermenu{
+	list-style-type: none; 
+	color: white;
+	padding: 3px 0 3px 0;
+}
+
+.footermenu a{
+	color: white;
+}
+
+.footer-copyright{
+	background-color: #FFDE5E;
+}
+
+/* ----- BLOG.HTML -----*/
+
+#rooow{
+	width: 110%;
+}
+
+.row {
+	bottom: 0;
+    position: relative;
+    width: 100%;
+    align-items: center;
+}
+
+h1{
+	text-align: center;
+	margin-top: -5px;
+	margin-bottom: -10px;
+}
+
+h2{
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+
+.card-body{
+	background-color: rgb(255, 255, 102);
+	padding-right: 20px; 
+    padding-left: 20px;
+    height: 160px; 
+    width: 100%; 
+}
+
+/*----- ABOUT.HTML ----- */
+/*----- ME CONCERNANT ---*/
+
+hr{
+	margin-right: 150px; 
+	margin-left: 150px;
+}
+
+.featurette-heading{
+	font-size: 1.8em;
+	padding-top: 10px;
+}
+
+#apropos{
+	padding-top: 10px; 
+}
+
+#photoswildo{
+	padding-top: 20px;
+}
+
+.card-img-top{
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 15px;
+}
+
+.featurette-image{
+	border-style: solid;
+	border-color: #ffde5e;
+	border-radius: 50%;
+	border-width: 10px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* ----- 4 PHOTOS -----*/
+
+#gallery{
+	flex-wrap: wrap;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+/* ----- MEDIA QUERIES -----*/
+
+@media screen and (min-width: 200px) and (max-width: 900px){
+	#apropos > .texteabout{
+		font-size: 0.7em;
+	}
+	#apropos > .featurette-heading{
+		font-size: 0.9em;
+	}
+
+	#rooow > h5, .card-text{
+		font-size: 0.9em;
+	}
+	.container{
+		padding-right: 10px; 
+		padding-left: 10px;
+	}
+}
+
+@media screen and (min-width:900px) and (max-width:1000px){
+	#apropos > .texteabout{
+		font-size: 0.9em;
+	}
+
+	.container{
+		padding-right: 10px; 
+		padding-left: 10px;
+	}
+}
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+	.icones{
+  
+	  justify-content: flex-end;
+	}
+	.carousel-caption > p, h3 {
+		font-size: 0.6em;
+	}
+	.carousel-caption {
+		top:  -4px;
+	}
+	#apropos > .texteabout{
+		font-size: 0.8em;
+	}
+	.container{
+		padding-right: 10px; 
+		padding-left: 10px;
+	}
+	.section{
+		padding-right: 20px; 
+		padding-left: 20px;
+	}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 2000px) {
+	#navbarsExample08{
+  
+	  padding-left:19%;
+	}
+}	
+
+@media screen and (max-width: 1200px) {
+	#navbarsExample08{
+  
+	  padding-left:26%;
+	}
+}	
