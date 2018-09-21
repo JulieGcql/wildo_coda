@@ -93,14 +93,22 @@ body{
 
 .icons img{
 	margin-left: 15px;
-    height: 60px;
-    width: 60px;
+    height: 5vw;
+    width: 5vw;
 }
 
 #footer-links{
-	padding-top: 10px;
-	color: white;
+	padding-top: 15px;
+}
 
+.footermenu{
+	list-style-type: none; 
+	color: white;
+	padding: 3px 0 3px 0;
+}
+
+.footermenu a{
+	color: white;
 }
 
 .footer-copyright{
