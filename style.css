@@ -4,7 +4,7 @@ body{
 	font-family: 'Overpass', sans-serif;
 }
 
-
+/* ----- BARRE NAV -----*/
 
 .navbar{
 	background-color: #9bbfcc;
@@ -17,12 +17,27 @@ body{
 	text-align: justify;
 }
 
+/* ----- CONTAINER -----*/
+
+.container{
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	padding-right: 150px; 
+	padding-left: 150px;
+}
+
+/* ----- TITRES POUR CHAQUE PAGES -----*/
+
 .titres{
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	letter-spacing: 3px;
 }
+
+/* ----- INDEX.HTML -----*/
+/* ----- SLIDER -----*/ 
 
 .slider{
 	margin-left:auto;
@@ -37,6 +52,8 @@ body{
 	font-size: 1em;
 }
 
+/* ----- VOIR PLUS -----*/
+
 .voirplus {
 	text-align: center;
 	padding-top: 50px;
@@ -49,6 +66,8 @@ body{
 .voirplus a {
 	color:#212529;
 }
+
+/* ----- FOOTER -----*/
 
 #super-footer{
     background:#1e4367;
@@ -65,17 +84,6 @@ body{
 }
 
 .super-footer-row{
-    align-items: center;
-}
-
-#rooow{
-	width: 110%;
-}
-
-.row {
-	bottom: 0;
-    position: relative;
-    width: 100%;
     align-items: center;
 }
 
@@ -115,6 +123,19 @@ body{
 	background-color: #FFDE5E;
 }
 
+/* ----- BLOG.HTML -----*/
+
+#rooow{
+	width: 110%;
+}
+
+.row {
+	bottom: 0;
+    position: relative;
+    width: 100%;
+    align-items: center;
+}
+
 h1{
 	text-align: center;
 	margin-top: -5px;
@@ -134,35 +155,8 @@ h2{
     width: 100%; 
 }
 
-.container{
-	padding-right: 150px;
-	padding-left: 150px;
-}
-
-@media screen and (min-width: 200px) and (max-width: 640px){
-	#apropos > .texteabout{
-		font-size: 0.8em;
-	}
-	.container{
-		padding-right: 10px; 
-		padding-left: 10px;
-	}
-	.section{
-		padding-right: 20px; 
-		padding-left: 20px;
-	}
-}
-
-
-.container{
-	padding: 10px;
-	display: flex;
-	flex-direction: column;
-	padding-right: 150px; 
-	padding-left: 150px;
-}
-
-/*-- ABOUT - ME CONCERNANT ---*/
+/*----- ABOUT.HTML ----- */
+/*----- ME CONCERNANT ---*/
 
 hr{
 	margin-right: 150px; 
@@ -199,11 +193,15 @@ hr{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/* ----- 4 PHOTOS -----*/
+
 #gallery{
 	flex-wrap: wrap;
 	padding: 20px;
 	margin-bottom: 20px;
 }
+
+/* ----- MEDIA QUERIES -----*/
 
 @media screen and (min-width: 200px) and (max-width: 900px){
 	#apropos > .texteabout{
@@ -221,7 +219,6 @@ hr{
 		padding-left: 10px;
 	}
 }
-
 
 @media screen and (min-width:900px) and (max-width:1000px){
 	#apropos > .texteabout{
@@ -245,6 +242,17 @@ hr{
 	.carousel-caption {
 		top:  -4px;
 	}
+	#apropos > .texteabout{
+		font-size: 0.8em;
+	}
+	.container{
+		padding-right: 10px; 
+		padding-left: 10px;
+	}
+	.section{
+		padding-right: 20px; 
+		padding-left: 20px;
+	}
 }
 
 @media screen and (min-width: 1200px) and (max-width: 2000px) {
@@ -260,4 +268,3 @@ hr{
 	  padding-left:26%;
 	}
 }	
-
