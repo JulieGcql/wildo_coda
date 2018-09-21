@@ -17,14 +17,14 @@ Creation of a blog for a backpacker who travelled in Marseille, and wrote about 
 - Images libres de droit
 
 # Notes
-1. *Div colors* :
+1. **Div colors** :
 - Blue : #9bbfcc
 - Yellow : #ffde5e
 - Dark blue : #1e4367
-2. Font colors :
+2. **Font colors** :
 - Dark grey : #333333
 - White : #ffffff
-3. Pictures used :
+3. **Pictures used** :
 - [Pixabay.com](https://pixabay.com/fr/photos/marseille/)
 
 # Authors
