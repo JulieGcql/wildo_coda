@@ -191,10 +191,6 @@ hr{
 	margin-bottom: 20px;
 }
 
-#navbarsExample08 {
-	padding-left: 26%;
-}
-
 @media screen and (min-width: 200px) and (max-width: 900px){
 	#apropos > .texteabout{
 		font-size: 0.7em;
@@ -240,4 +236,10 @@ hr{
 	}
 }	
 
+@media screen and (max-width: 1200px) {
+	#navbarsExample08{
+  
+	  padding-left:26%;
+	}
+}	
 
